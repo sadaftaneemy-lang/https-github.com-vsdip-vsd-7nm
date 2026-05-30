@@ -1,5 +1,4 @@
-# https-github.com-vsdip-vsd-7nm
-7nmWorkshop
+
 # 7nm Finfet Circut design (BGR)
 ## What is Finfet ?
 FinFET (Fin Field-Effect Transistor) is a 3D transistor structure used in modern VLSI technology to overcome the limitations of planar MOSFETs at very small technology nodes.

@@ -52,7 +52,7 @@ As transistors became smaller (45nm, 22nm, 14nm, 7nm, etc.), traditional planar 
 
 To overcome these issues, the semiconductor industry introduced the FinFET architecture.
 
-📌 Main Idea
+### 📌 Main Idea
 
 In a planar MOSFET, the gate controls the channel from only one side.
 
@@ -60,33 +60,33 @@ In a FinFET, the channel is shaped like a vertical "fin," and the gate wraps aro
 
 This gives much stronger control over the flow of current.
 
-Benefits of FinFET
+## Benefits of FinFET
 
-✅ Lower Leakage Current
+1. Lower Leakage Current
 
 Reduces unwanted current flow when the transistor is OFF.
 Improves battery life and power efficiency.
 
-✅ Better Gate Control
+2. Better Gate Control
 
 The gate surrounds the channel from multiple sides.
 Improves switching behavior.
 
-✅ Lower Power Consumption
+3. Lower Power Consumption
 
 Operates efficiently at lower voltages.
 Important for mobile devices and modern processors.
 
-✅ Higher Performance
+4. Higher Performance
 
 Faster switching speeds.
 Better overall circuit performance.
 
-✅ Reduced Short-Channel Effects
+5. Reduced Short-Channel Effects
 
 Maintains reliable operation even at very small technology nodes such as 7nm.
 
-✅ Supports Advanced Technology Nodes
+6. Supports Advanced Technology Nodes
 
 Widely used in modern chips manufactured at 22nm, 14nm, 10nm, 7nm, 5nm, and beyond.
   

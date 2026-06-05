@@ -3,10 +3,58 @@
 ## What is Finfet ?
 FinFET (Fin Field-Effect Transistor) is a 3D transistor structure used in modern VLSI technology to overcome the limitations of planar MOSFETs at very small technology nodes.
 
+## Why do we use FinFET?
+
+As transistors became smaller (45nm, 22nm, 14nm, 7nm, etc.), traditional planar MOSFETs started facing serious problems:
+
+- High leakage current
+- Increased power consumption
+- Poor gate control over the channel
+- Short-channel effects
+- Reduced performance
+
+To overcome these issues, the semiconductor industry introduced the FinFET architecture.
+
+### 📌 Main Idea
+
+In a planar MOSFET, the gate controls the channel from only one side.
+
+In a FinFET, the channel is shaped like a vertical "fin," and the gate wraps around multiple sides of the fin.
+
+This gives much stronger control over the flow of current.
+
 ## What makes FinFET special?
 The channel is shaped like a vertical fin standing on the silicon substrate. The gate wraps around the fin on 2 or 3 sides, giving much better control over the channel.
 
 <img width="254" height="199" alt="image" src="https://github.com/user-attachments/assets/4045f257-c71e-4b74-814f-2b7629f2439d" />
+
+
+## Benefits of FinFET
+
+**1. Lower Leakage Current**
+
+   One of the major advantages of FinFET technology is its ability to reduce leakage current. In conventional planar MOSFETs, a small amount of current can flow      even when the transistor is turned off. FinFETs provide better control over the channel, which significantly reduces this unwanted leakage and improves power      efficiency.
+
+**2. Better Gate Control**
+   
+   In a FinFET, the gate surrounds the channel from multiple sides instead of controlling it from only one side. This structure allows the gate to control the        flow of current more effectively, resulting in improved transistor operation and reliability.
+
+**3. Lower Power Consumption**
+   
+   Because of the improved gate control and reduced leakage current, FinFETs consume less power compared to traditional planar MOSFETs. This makes them highly        suitable for battery-powered devices such as smartphones, tablets, and laptops.
+
+**4. Higher Performance**
+   
+   FinFET transistors can switch on and off more efficiently, which helps circuits operate at higher speeds. This improved switching performance contributes to       faster processors and better overall system performance.
+
+**5. Reduced Short-Channel Effects**
+   
+   As transistor dimensions shrink to nanometer scales, several unwanted effects begin to appear, degrading performance. FinFET technology minimizes these short-     channel effects by providing stronger control over the channel, ensuring stable operation even at very small technology nodes.
+
+**6. Scalability for Advanced Technologies**
+   
+   FinFETs are well suited for advanced semiconductor manufacturing processes such as 7nm, 5nm, and beyond. Their structure allows manufacturers to continue          increasing transistor density while maintaining performance and power efficiency
+
 
 # The Main topics covered in the Workshop are:
 
@@ -40,51 +88,7 @@ The channel is shaped like a vertical fin standing on the silicon substrate. The
    20. Bandgap Circuit Final Simulations
    20. Assignment
 
-## Why do we use FinFET?
 
-As transistors became smaller (45nm, 22nm, 14nm, 7nm, etc.), traditional planar MOSFETs started facing serious problems:
-
-- High leakage current
-- Increased power consumption
-- Poor gate control over the channel
-- Short-channel effects
-- Reduced performance
-
-To overcome these issues, the semiconductor industry introduced the FinFET architecture.
-
-### 📌 Main Idea
-
-In a planar MOSFET, the gate controls the channel from only one side.
-
-In a FinFET, the channel is shaped like a vertical "fin," and the gate wraps around multiple sides of the fin.
-
-This gives much stronger control over the flow of current.
-
-## Benefits of FinFET
-
-**1. Lower Leakage Current**
-
-   One of the major advantages of FinFET technology is its ability to reduce leakage current. In conventional planar MOSFETs, a small amount of current can flow      even when the transistor is turned off. FinFETs provide better control over the channel, which significantly reduces this unwanted leakage and improves power      efficiency.
-
-**2. Better Gate Control**
-   
-   In a FinFET, the gate surrounds the channel from multiple sides instead of controlling it from only one side. This structure allows the gate to control the        flow of current more effectively, resulting in improved transistor operation and reliability.
-
-**3. Lower Power Consumption**
-   
-   Because of the improved gate control and reduced leakage current, FinFETs consume less power compared to traditional planar MOSFETs. This makes them highly        suitable for battery-powered devices such as smartphones, tablets, and laptops.
-
-**4. Higher Performance**
-   
-   FinFET transistors can switch on and off more efficiently, which helps circuits operate at higher speeds. This improved switching performance contributes to       faster processors and better overall system performance.
-
-**5. Reduced Short-Channel Effects**
-   
-   As transistor dimensions shrink to nanometer scales, several unwanted effects begin to appear, degrading performance. FinFET technology minimizes these short-     channel effects by providing stronger control over the channel, ensuring stable operation even at very small technology nodes.
-
-**6. Scalability for Advanced Technologies**
-   
-   FinFETs are well suited for advanced semiconductor manufacturing processes such as 7nm, 5nm, and beyond. Their structure allows manufacturers to continue          increasing transistor density while maintaining performance and power efficiency
 
   
    

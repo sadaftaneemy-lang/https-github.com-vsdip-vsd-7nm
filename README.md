@@ -40,6 +40,54 @@ The channel is shaped like a vertical fin standing on the silicon substrate. The
    20. Bandgap Circuit Final Simulations
    20. Assignment
 
+## Why do we use FinFET?
 
+As transistors became smaller (45nm, 22nm, 14nm, 7nm, etc.), traditional planar MOSFETs started facing serious problems:
+
+- High leakage current
+- Increased power consumption
+- Poor gate control over the channel
+- Short-channel effects
+- Reduced performance
+
+To overcome these issues, the semiconductor industry introduced the FinFET architecture.
+
+📌 Main Idea
+
+In a planar MOSFET, the gate controls the channel from only one side.
+
+In a FinFET, the channel is shaped like a vertical "fin," and the gate wraps around multiple sides of the fin.
+
+This gives much stronger control over the flow of current.
+
+Benefits of FinFET
+
+✅ Lower Leakage Current
+
+Reduces unwanted current flow when the transistor is OFF.
+Improves battery life and power efficiency.
+
+✅ Better Gate Control
+
+The gate surrounds the channel from multiple sides.
+Improves switching behavior.
+
+✅ Lower Power Consumption
+
+Operates efficiently at lower voltages.
+Important for mobile devices and modern processors.
+
+✅ Higher Performance
+
+Faster switching speeds.
+Better overall circuit performance.
+
+✅ Reduced Short-Channel Effects
+
+Maintains reliable operation even at very small technology nodes such as 7nm.
+
+✅ Supports Advanced Technology Nodes
+
+Widely used in modern chips manufactured at 22nm, 14nm, 10nm, 7nm, 5nm, and beyond.
   
    

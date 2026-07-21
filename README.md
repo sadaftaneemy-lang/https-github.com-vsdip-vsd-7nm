@@ -56,7 +56,7 @@ The channel is shaped like a vertical fin standing on the silicon substrate. The
    FinFETs are well suited for advanced semiconductor manufacturing processes such as 7nm, 5nm, and beyond. Their structure allows manufacturers to continue          increasing transistor density while maintaining performance and power efficiency
 
 
-# The Main topics covered in the Workshop are:
+# The topics covered in the Workshop are:
 
 ## - Scaling beyond CMOS : Finfet Devices and Innovations
 

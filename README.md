@@ -118,7 +118,7 @@ Steps to install :
 
 #install xschem a schemaic capture tool
 
-git clone https://github.com/StefanSchippers/xschem.git xschem
+```git clone https://github.com/StefanSchippers/xschem.git xschem
 
 cd xschem
 
@@ -129,10 +129,11 @@ make
 sudo make install 
 
 cd ..
+```
 
 if the above  doesn't work then use the below commands, ( be in the xschem directory and try to install )
 
-'''sudo apt update
+```sudo apt update
 
 
 sudo apt install build-essential tcl-dev tk-dev libx11-dev libxrender-dev libxpm-dev \
@@ -146,7 +147,9 @@ make
 sudo make install
 
 xschem
-'''
+
+```
+
 
 
 

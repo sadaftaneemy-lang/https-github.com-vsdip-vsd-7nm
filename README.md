@@ -116,7 +116,7 @@ Xschem is an open-source schematic editor used for designing electronic circuits
  
 Steps to install :
 
-#install xschem a schemaic capture tool
+**Install xschem a schematic capture tool**
 
 ```
 git clone https://github.com/StefanSchippers/xschem.git xschem

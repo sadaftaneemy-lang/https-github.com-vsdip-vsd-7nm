@@ -119,10 +119,15 @@ Steps to install :
 #install xschem a schemaic capture tool
 
 git clone https://github.com/StefanSchippers/xschem.git xschem
+
 cd xschem
-./configure 
+
+./configure
+
 make 
+
 sudo make install 
+
 cd ..
 
 

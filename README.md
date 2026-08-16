@@ -112,7 +112,7 @@ In advanced nodes like 7nm, where circuits operate at low supply voltages and ar
 | BSIM-CMG     | Magic  |
 
 ## Installation of Xschem
-An open-source schematic editor used to draw and design electronic circuits before layout implementation
+Xschem is an open-source schematic editor used for designing electronic circuits. It allows users to draw circuit schematics and connect different components. It can be integrated with NGSpice for circuit simulation and analysis. Xschem is commonly used to create and verify schematics before moving to the layout stage.
 
 
 

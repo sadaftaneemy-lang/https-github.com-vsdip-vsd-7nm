@@ -135,7 +135,6 @@ if the above  doesn't work then use the below commands, ( be in the xschem direc
 
 ```sudo apt update
 
-
 sudo apt install build-essential tcl-dev tk-dev libx11-dev libxrender-dev libxpm-dev \
 libjpeg-dev libxaw7-dev libxft-dev libxcb1-dev flex bison gawk xterm git
 

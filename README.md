@@ -112,8 +112,18 @@ In advanced nodes like 7nm, where circuits operate at low supply voltages and ar
 | BSIM-CMG     | Magic  |
 
 ## Installation of Xschem
-Xschem is an open-source schematic editor used for designing electronic circuits. It allows users to draw circuit schematics and connect different components. It can be integrated with NGSpice for circuit simulation and analysis. Xschem is commonly used to create and verify schematics before moving to the layout stage.
+Xschem is an open-source schematic editor used for designing electronic circuits. It allows users to draw circuit schematics and connect different components. It can be integrated with NGSpice for circuit simulation and analysis. Xschem is commonly used to create and verify schematics before moving to the layout stage.The user interface is built with the Tcl-Tk toolkit, tcl is also the extension language used.
+ 
+Steps to install :
 
+#install xschem a schemaic capture tool
+
+git clone https://github.com/StefanSchippers/xschem.git xschem
+cd xschem
+./configure 
+make 
+sudo make install 
+cd ..
 
 
 

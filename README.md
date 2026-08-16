@@ -101,3 +101,28 @@ BGR provides a constant reference voltage, typically around 1.2 V, for other cir
 
 ## Why do we need a bandgap circuit in 7nm Design?
 In advanced nodes like 7nm, where circuits operate at low supply voltages and are highly sensitive to fluctuations, the role of a bandgap reference becomes even more critical. It provides a reliable voltage baseline required for biasing analog components such as voltage regulators, analog-to-digital converters (ADCs), phase-locked loops (PLLs), and sensor interfaces within digital systems. Since 7nm designs also face increased PVT (Process, Voltage, Temperature) variation, a bandgap reference ensures system stability and performance by anchoring these analog subsystems with a consistent reference
+
+## Tools
+
+| Tool         | Use    |
+|--------------|--------|
+| Xschem       | Sky130 |
+| Ngspice      | 1.8 V  |
+| ASAP 7nm pdk | ~1.2 V |
+| BSIM-CMG     | Magic  |
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

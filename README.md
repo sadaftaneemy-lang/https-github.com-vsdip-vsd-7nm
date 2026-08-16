@@ -111,7 +111,8 @@ In advanced nodes like 7nm, where circuits operate at low supply voltages and ar
 | ASAP 7nm pdk | ~1.2 V |
 | BSIM-CMG     | Magic  |
 
-## Installation 
+## Installation of Xschem
+An open-source schematic editor used to draw and design electronic circuits before layout implementation
 
 
 

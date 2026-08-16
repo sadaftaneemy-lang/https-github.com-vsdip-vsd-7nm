@@ -1,5 +1,5 @@
 
-# 7nm Finfet Circut design (BGR)
+# 7nm Finfet Bandgap Reference Circut design 
 ## What is Finfet ?
 FinFET (Fin Field-Effect Transistor) is a 3D transistor structure used in modern VLSI technology to overcome the limitations of planar MOSFETs at very small technology nodes.
 

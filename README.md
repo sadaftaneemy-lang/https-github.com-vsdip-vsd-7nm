@@ -132,8 +132,7 @@ cd ..
 
 if the above  doesn't work then use the below commands, ( be in the xschem directory and try to install )
 
-
-sudo apt update
+'''sudo apt update
 
 
 sudo apt install build-essential tcl-dev tk-dev libx11-dev libxrender-dev libxpm-dev \
@@ -146,8 +145,8 @@ make
 
 sudo make install
 
-xschme
-
+xschem
+'''
 
 
 

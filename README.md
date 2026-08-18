@@ -155,6 +155,23 @@ xschem
 **Ngspice** is an open-source circuit simulation tool used to analyze and simulate electronic circuits. It supports SPICE-based simulations such as DC, AC, transient, and operating-point analysis, making it useful for testing and verifying circuit designs before hardware implementation.
 It helps check circuit behavior, voltages, currents, and waveforms before implementing the circuit in hardware.
 
+```
+## clone the source repository into a local ngspice_git directory
+git clone https://git.code.sf.net/p/ngspice/ngspice ngspice_git
+cd ngspice_git
+mkdir release
+sudo apt install autoconf automake libtool
+./autogen.sh
+cd release
+## by default if no --prefix is provided ngspice will install under /usr/local/{bin,share,man,lib}
+## you can add a --prefix=/home/username to install into your home directory.
+../configure --with-x --enable-xspice --disable-debug --enable-cider --with-readline=yes --enable-openmp --enable-osdi
+## build the program
+make
+## install the program and needed files.
+sudo make install
+
+```
 
 
 

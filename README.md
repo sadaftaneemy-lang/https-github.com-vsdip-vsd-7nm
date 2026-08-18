@@ -152,6 +152,9 @@ xschem
 ```
 
 **Installation of Ngspice**
+**Ngspice** is an open-source circuit simulation tool used to analyze and simulate electronic circuits. It supports SPICE-based simulations such as DC, AC, transient, and operating-point analysis, making it useful for testing and verifying circuit designs before hardware implementation.
+It helps check circuit behavior, voltages, currents, and waveforms before implementing the circuit in hardware.
+
 
 
 

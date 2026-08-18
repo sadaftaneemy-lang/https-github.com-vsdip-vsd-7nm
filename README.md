@@ -200,6 +200,9 @@ ASAP → Arizona State Predictive
 
 PDK → Process Design Kit
 
+**ASAP7 7nm PDK** is a predictive technology design kit used for designing and simulating circuits at the 7nm technology node. It provides device models, technology files, and design rules needed for CMOS circuit and layout development.
+
+
 
 
 

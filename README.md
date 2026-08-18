@@ -190,7 +190,15 @@ ngspice
 ```
 
 ## ASAP 7nm PDK
+**ASAP 7** stands for ASU ASAP 7nm Predictive PDK.
 
+ASU → Arizona State University
+
+ASAP → Arizona State Predictive
+
+7nm → 7 nanometer technology node
+
+PDK → Process Design Kit
 
 
 

@@ -173,7 +173,21 @@ make
 sudo make install
 
 ```
+If the above steps dont work, then use the below steps  
+```
+## clone the source repository into a local ngspice_git directory
+git clone https://git.code.sf.net/p/ngspice/ngspice ngspice_git
+cd ngspice_git
+sudo apt install autoconf automake libtool
+./autogen.sh
+mkdir build
+sudo apt install libreadline-dev
+../configure --with-x --enable-xspice --disable-debug --enable-cider --with-readline=yes --enable-openmp --enable-osdi
+make -j$(nproc)
+sudo make install
+ngspice
 
+```
 
 
 

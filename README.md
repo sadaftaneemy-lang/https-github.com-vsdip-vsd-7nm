@@ -202,8 +202,15 @@ PDK → Process Design Kit
 
 **ASAP7 7nm PDK** is a predictive technology design kit used for designing and simulating circuits at the 7nm technology node. It provides device models, technology files, and design rules needed for CMOS circuit and layout development.
 
+There were two git repositories which I used for this experiment, you could clone either of them and install the PDK and related files
 
+```
+git clone https://github.com/AsahiroKenpachi/asap_7nm_Xschem.git
+```
 
+```
+git clone https://github.com/The-OpenROAD-Project/asap7.git
+```
 
 
 

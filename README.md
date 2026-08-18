@@ -151,7 +151,7 @@ xschem
 
 ```
 
-
+**Installation of Ngspice**
 
 
 
